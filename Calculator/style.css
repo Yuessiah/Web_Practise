@@ -1,0 +1,97 @@
+
+html {
+	background: #616E76;
+}
+body {
+	background-color: #616E76 !important;
+	text-align: center;
+}
+
+.device {
+	background: #F3F4F9;
+	border-top-right-radius: 80%5%;
+	border-top-left-radius: 80%5%;
+	border-bottom-right-radius: 80%8%;
+	border-bottom-left-radius: 80%8%;
+	box-shadow: inset 5px 0 10px -5px #6B6F7B, inset -5px 0 10px -5px #6B6F7B, inset 0px -5px 10px -2px #6B6F7B, 0 0 1px 2px #6B6F7B, 0 10px 20px 0 #2F3239;
+	width: 600px;
+	height: 328px;
+	margin: 0 auto;
+	position: relative;
+}
+.heading {
+	color: #E6E6E6;
+	text-shadow: 0 0 1px #A2A3A6;
+	font-family: 'Merriweather', serif;
+	font-size: 43.8px;
+	font-weight: bold;
+	padding-top: 12px;
+	padding-bottom: 2px;
+}
+.screen {
+	background: rgba(90,136,161,0.8);
+	border-radius: 5%;
+	box-shadow: 0 0 2px #6B6F7B, 0 3.5px 5px -1.9px #6B6F7B, 2px 0 5px -1px #6B6F7B, -2px 0 5px -1px #6B6F7B, inset 0 2px 4px 2.5px rgba(90,136,161,1);
+	text-align: right;
+	width: 41.7%;
+	height: 15.5%;
+	float: left;
+	margin-left: 22px;
+	padding: 1% 1.5%;
+	padding-top: 1.1%;
+}
+#result {
+	color: #445;
+	font-family: 'PT Mono', monospace;
+	font-size: 28px;
+	font-weight: bold;
+}
+.keyboard {
+	float: right;
+	width: 50%;
+	margin-right: 15px;
+}
+.key {
+	background: #303E3F;
+	box-shadow: inset 0 0 12px #405253, inset 0 -2px 18px 1px #6F8586, 0 2.5px 4.28px 0.8px #000;
+	color: rgba(256, 256, 256, 0.9);
+	text-shadow: 0 0 3px rgba(20, 20, 20, 0.87);
+	font-family: 'Source Code Pro', monospace;
+	font-size: 19px;
+	outline: none;
+	border: none;
+	border-top-right-radius: 50%90%;
+	border-top-left-radius: 50%90%;
+	border-bottom-right-radius: 40%100%;
+	border-bottom-left-radius: 40%100%;
+	width: 62px;
+	height: 38px;
+	margin: 0 3px;
+	margin-bottom: 9px;
+}
+.key:active {
+	box-shadow: inset 0 0 12px #405253, inset 0 -2px 18px 1px #6F8586, 0 1.5px 3.1px 0.2px #000;
+	font-size: 18.67px;
+	transform: scale(0.993);
+}
+#key-plus {
+	height: 85px;
+	float: right;
+	margin-right: 11.3px;
+	margin-left: 0px;
+}
+#key-0,#key-dot,#key-equal {
+}
+#akarin {
+	border-radius: 8%;
+	opacity: 0.3;
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	filter: grayscale(100%);
+	width: 45%;
+	position: absolute;
+	right: 52.8%;
+	top: 44%;
+}

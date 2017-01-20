@@ -1,0 +1,54 @@
+
+html {
+	background: #2F2A21;
+}
+body {
+	text-align: center;
+}
+div {
+	background: #2F2A21;
+}
+
+.heading {
+	color: #FFF6E3;
+	font-family: 'Shadows Into Light Two', cursive;
+	font-size: 5em;
+	font-weight: bold;
+}
+.session,.break {
+	color: #FFF6E3;
+	font-family: 'Slabo 27px', serif;
+	font-size: 2.7em;
+	display: inline-block;
+	margin: 40px 48px 10px 48px;
+}
+.minus,.plus {
+	background: #2F2A21;
+	color: #FFF6E3;
+	border: none;
+	outline: none;
+}
+.minus:active,.plus:active {
+	color: #FFD324;
+	text-shadow: 0px 0px 8px #FFF6E3;
+}
+
+.timer {
+	background: #2F2A26;
+	border: 2px solid #69DBFF;
+	border-radius: 50em;
+	box-shadow: 0 0 15px #C1EEFF;
+	width: 320px;
+	height: 320px;
+	margin: 0 auto;
+}
+.timer>p {
+	color: #FFEFDF;
+	font-family: 'Slabo 27px', serif;
+	font-size: 4em;
+	padding-top: 17%;
+}
+.timer>p:last-child {
+	font-size: 5em;
+	margin-top: -11px;
+}

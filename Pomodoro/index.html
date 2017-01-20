@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+
+		<link type="text/css" rel="stylesheet" href="style.css">
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<script src="scripts.js"></script>
+
+		<link type="image/x-icon" rel="icon" href="http://imgur.com/sg2Sdht.png">
+		<title>PY: Pomodoro</title>
+	</head>
+	<body>
+
+		<div>
+				<h1 class="heading">Project Y: Pomodoro</h1>
+				<div class="session">
+					<p style="font-size: 0.36em">SESSION LENGTH</p>
+					<button class="minus">-</button>
+					<span id="session-len">20</span>
+					<button class="plus">+</button>
+				</div>
+				<div class="break">
+					<p style="font-size: 0.36em">BREAK LENGTH</p>
+					<button class="minus">-</button>
+					<span id="break-len">7</span>
+					<button class="plus">+</button>
+				</div>
+				<div role="button" class="timer">
+					<p id="mode">Session</p>
+					<p id="time" value>20</p>
+				</div>
+		</div>
+
+	</body>
+</html>

@@ -1,0 +1,67 @@
+
+html {
+	background: #DFA;
+}
+body {
+	font-family: sans-serif;
+	text-align: center;
+}
+div {
+	background: #DFA;
+}
+
+.heading {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 4em;
+}
+.heading+p {
+	font-size: 17px;
+}
+.start-box {
+	margin: 20px 0;
+}
+.start-box:hover {
+	transform: scale(1.1);
+}
+
+.quote-box {
+	background: #FFE;
+	width: 66%;
+	margin: 0 auto;
+}
+#quote {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.drop-shadow {
+	position:relative;
+	padding:1em;
+	box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.drop-shadow:before,
+.drop-shadow:after {
+	content:"";
+	position:absolute;
+	z-index:-2;
+}
+
+.lifted {
+	border-radius: 4px;
+}
+.lifted:before,
+.lifted:after {
+	bottom:15px;
+	left:10px;
+	width:50%;
+	height:20%;
+	max-width:300px;
+	max-height:100px;
+	box-shadow:0 15px 10px rgba(0, 0, 0, 0.7);
+	transform:rotate(-3deg);
+}
+.lifted:after {
+	right: 10px;
+	left: auto;
+	transform:rotate(3deg);
+}
