@@ -1,0 +1,7 @@
+.rank>#name {
+	float: left;
+}
+
+.problem_field>#name, #flag {
+	float: left;
+}
