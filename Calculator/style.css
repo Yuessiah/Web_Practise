@@ -33,7 +33,7 @@ body {
 	border-radius: 5%;
 	box-shadow: 0 0 2px #6B6F7B, 0 3.5px 5px -1.9px #6B6F7B, 2px 0 5px -1px #6B6F7B, -2px 0 5px -1px #6B6F7B, inset 0 2px 4px 2.5px rgba(90,136,161,1);
 	text-align: right;
-	width: 41.7%;
+	width: 42.3%;
 	height: 15.5%;
 	float: left;
 	margin-left: 22px;
@@ -43,7 +43,7 @@ body {
 #result {
 	color: #445;
 	font-family: 'PT Mono', monospace;
-	font-size: 28px;
+	font-size: 27px;
 	font-weight: bold;
 }
 .keyboard {
