@@ -9,42 +9,42 @@
 
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-		<!-- <script src="scripts.js"></script> -->
 
 		<link type="image/x-icon" rel="icon" href="">
 		<title>Catch the Chicken</title>
 	</head>
 
 	<body>
-		<div id="container">
-			<h1 class="CTC">Catch the Chicken</h1>
-			<div class="scoreboard">
-				<h3 class="heading">Scoreboard</h3>
-				<div id="1" class="rank">
-					<div id="name">DC</div>
-					<div id="score">948787</div>
-				</div>
-				<div id="2" class="rank">
-					<div id="name">YS</div>
-					<div id="score">0</div>
+		<div class="container">
+			<h1 id="CTC">Catch the Chicken</h1>
+			<div id="scoreboard">
+				<h3 id="heading">Scoreboard</h3>
+				<div class="header">
+					<div class="name">Name</div><div class="score">Score</div>
 				</div>
 			</div>
 
-			<div class="Problems">
-				<h3 class="heading">Problems</h3>
-				<div id="1" class="problem_field">
-					<p id="name">DC</p>
-					<p id="flag">CHICKEN:I want to eat chicken:ATTACK</p>
-					<p id="score">8787</p>
-					<a href=""><button id="decription" class="btn btn-default">chicken want to be eaten!</button></a>
+			<div id="submit">
+				<h3 id="heading">Submit</h3>
+				<div id="submit-headers">
+					<div class="name">Name</div>
+					<div class="flag">Flag</div>
 				</div>
-				<div id="2" class="problem_field">
-					<p id="name">YS</p>
-					<p id="flag">CHICKEN:(#!(X3^:ATTACK</p>
-					<p id="score">1337</p>
-					<a href=""><button id="decription" class="btn btn-default">Do you know what is 1337?</button></a>
+				<input type="text" id="submit-name" />
+				<input type="text" id="submit-flag" />
+				<button id="submit-btn" class="btn btn-default">Submit!</button>
+			</div>
+
+			<div id="problems">
+				<h3 id="heading">Problems</h3>
+				<div class="header">
+					<div class="type">Type</div><div class="no">No</div><div class="title">Title</div><div class="score">Score</div><div class="detail">Detail</div>
+				</div>
+				<div class="body">
+					<div class="type">Web</div><div class="no">0</div><div class="title">Try to send a flag that including three or more : sign!!!!</div><div class="score">4</div><div class="detail"><a href=""><button class="btn btn-default">Detail</button></a></div>
 				</div>
 			</div>
 		</div>
+		<script src="script.js"></script>
 	</body>
 </html>
