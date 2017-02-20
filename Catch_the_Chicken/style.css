@@ -2,6 +2,10 @@ a, div, button {
 	outline: none;
 }
 
+.margin_left10 {
+	margin-left: 10px;
+}
+
 #scoreboard .header {
 	font-weight: bold;
 }
@@ -23,6 +27,7 @@ a, div, button {
 }
 
 #submit #submit-flag {
+	font-family: monospace;
 	width: 240px;
 }
 

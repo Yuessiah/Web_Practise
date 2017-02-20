@@ -20,9 +20,8 @@ $("#submit-btn").click(function() {
 	var name = $("#submit-name").val();
 	var flag = $("#submit-flag").val();
 
-	var something = flag.slice("CHICKEN:".length, flag.lastIndexOf(":ATTACK", flag.length-1));
-	console.log(something);
-	if(something.match(":") === null) {
+	console.log(flag);
+	if(flag.match(":") === null) {
 		$.ajax({
 			type: "GET",
 			url: "http://ctc.ccns.ncku.edu.tw/api/submit?id="+name+"&flag="+flag,
@@ -40,6 +39,8 @@ $("#submit-btn").click(function() {
 				$("#submit-btn").removeClass("btn-default");
 			}
 		});
+	} else {
+		alert("Don't send the flag including colon sign!");
 	}
 });
 
